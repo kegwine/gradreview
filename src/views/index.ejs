@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  
+    Document Title
+    =============================================
+    -->
+    <title>Graduate Review</title>
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="lib/animate.css/animate.css" rel="stylesheet">
+    <link href="lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/lib/owl.carousel/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="/lib/owl.carousel/dist/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/lib/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="/lib/magnific-popup/dist/magnific-popup.css" />
+    <!-- endbower -->
+    <!-- bower:js -->
+    <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/lib/skrollr/src/skrollr.js"></script>
+    <script src="/lib/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="/lib/smoothscroll/dist/smoothscroll.js"></script>
+    <script src="/lib/wow/dist/wow.js"></script>
+    <script src="/lib/desandro-matches-selector/matches-selector.js"></script>
+    <script src="/lib/fizzy-ui-utils/utils.js"></script>
+    <script src="/lib/get-size/get-size.js"></script>
+    <script src="/lib/ev-emitter/ev-emitter.js"></script>
+    <script src="/lib/outlayer/item.js"></script>
+    <script src="/lib/outlayer/outlayer.js"></script>
+    <script src="/lib/isotope/js/item.js"></script>
+    <script src="/lib/isotope/js/layout-mode.js"></script>
+    <script src="/lib/isotope/js/isotope.js"></script>
+    <script src="/lib/isotope/js/layout-modes/vertical.js"></script>
+    <script src="/lib/isotope/js/layout-modes/fit-rows.js"></script>
+    <script src="/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="/lib/jQuery/dist/jquery.js"></script>
+    <script src="/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="/lib/simple-text-rotator/jquery.simple-text-rotator.js"></script>
+    <!-- endbower -->
+    <!-- inject:css-->
+    <link rel="stylesheet" href="/css/style-rtl.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--endinject-->
+    <!--inject:js-->
+    <script src="/js/main.js"></script>
+    <script src="/js/plugins.js"></script>
+    <!--endinject-->
+    <link id="color-scheme" href="css/colors/default.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="images/Schroders.png" style="width: 190px;margin-top: -10px;height: auto;"></img></a>
+                </div>
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <% for(var i=0; i<list.length;i++) {
+                  if(list[i]=='Home'){%>
+                            <li>
+                                <a href="#totop">
+                                    <%=list[i]%>
+                                </a>
+                            </li>
+                            <%}else{%>
+                                <li>
+                                    <a class="section-scroll" href="#<%=list[i]%>">
+                                        <%=list[i]%>
+                                    </a>
+                                </li>
+                                <%}
+                  }%>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="images/section-10.jpg">
+            <div class="titan-caption">
+                <div class="caption-content">
+                    <div class="font-alt mb-30 titan-title-size-1">End of Year</div>
+                    <div class="font-alt mb-40 titan-title-size-4">Graduate Review</div><a class="section-scroll btn btn-border-w btn-round" href="#About">More</a>
+                </div>
+            </div>
+        </section>
+        <div class="main">
+            <section class="module" id="About" style="background-color:rgba(243, 243, 243, 0.63)">
+                <div class="container">
+                    <section class="module bg-dark-60 about-page-header" data-background="images/about_bg.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <h2 class="module-title font-alt">About Me</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="row">
+                        <h2 class="module-title font-alt"></h2>
+                        <div class="col-sm-6">
+                            <h5 class="font-alt">My name is King.</h5>
+                            <br/>
+                            <p>Joined Schroders Singapore as part of the 2016 Graduate intake for Global Technology with a strong interest in Technology and all exciting developments in the Technological space.</p>
+                            <p> Most free time is spent reading about or trying out new technology.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="font-alt"><span class="icon-tools-2"></span> Development
+                </h6>
+                            <div class="progress">
+                                <div class="progress-bar pb-dark" aria-valuenow="75" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                            </div>
+                            <h6 class="font-alt"><span class="icon-gears"></span> Project Management
+                </h6>
+                            <div class="progress">
+                                <div class="progress-bar pb-dark" aria-valuenow="70" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                            </div>
+                            <h6 class="font-alt"><span class="icon-target"></span> Business Analysis
+                </h6>
+                            <div class="progress">
+                                <div class="progress-bar pb-dark" aria-valuenow="70" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                            </div>
+                            <h6 class="font-alt"><span class="icon-heart"></span> People Skills
+                </h6>
+                            <div class="progress">
+                                <div class="progress-bar pb-dark" aria-valuenow="75" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="module bg-dark-60" id="Stats" style="background-color: #ff0579">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <h2 class="module-title font-alt">Stats</h2>
+                            <div class="module-subtitle font-serif"></div>
+                        </div>
+                    </div>
+                    <div class="row multi-columns-row">
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="count-item mb-sm-40">
+                                <div class="count-icon"><span class="icon-calendar"></span></div>
+                                <h3 class="count-to font-alt" data-countto="17072016"></h3>
+                                <h5 class="count-title font-serif">Date joined</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="count-item mb-sm-40">
+                                <div class="count-icon"><span class="icon-recycle"></span></div>
+                                <h3 class="count-to font-alt" data-countto="6"></h3>
+                                <h5 class="count-title font-serif">Rotations so far</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="count-item mb-sm-40">
+                                <div class="count-icon"><span class="icon-expand"></span></div>
+                                <h3 class="count-to font-alt" data-countto="7"></h3>
+                                <h5 class="count-title font-serif">Self-initiated deliveries</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="count-item mb-sm-40">
+                                <div class="count-icon"><span class="icon-map-pin"></span></div>
+                                <h3 class="count-to font-alt" data-countto="2"></h3>
+                                <h5 class="count-title font-serif">Number of offices worked in</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="module" id="Rotations" style="padding-bottom:100px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <h2 class="module-title font-alt">Rotations</h2>
+                            <div class="module-subtitle font-serif">Overview of the rotations done over the past 12 months - More details here</div>
+                            <div class="module-subtitle font-serif"></div>
+                        </div>
+                    </div>
+                    <div class="row multi-columns-row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="features-item">
+                                <div class="features-icon"><span class="icon-lightbulb"></span></div>
+                                <h3 class="features-title font-alt">1. Technical Services - Anil Kumar Putchakayala</h3>
+                                <h4 class="post-meta">June - August 2016</h4>
+                                <p>Worked with Srinit to Integrate APAC Architectural diagrams into iServer. This provided a platform to quickly get an overview of the technological landscape of Schroders APAC IT</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="features-item">
+                                <div class="features-icon"><span class="icon-bike"></span></div>
+                                <h3 class="features-title font-alt">2. Investment Platform IT- Therese Stokes</h3>
+                                <h4 class="post-meta">September - October 2016</h4>
+                                <p>Learnt about the new LEAP way of working under an RTE. Worked on cleaning up mismanaged TFS projects and managed the Investment IT Scrum of Scrums Dependency Board.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="features-item">
+                                <div class="features-icon"><span class="icon-tools"></span></div>
+                                <h3 class="features-title font-alt">3. Enterprise Architecture - Roy Manning</h3>
+                                <h4 class="post-meta">October - December 2016</h4>
+                                <p>Documented missing iServer applications and integrated iServer and ServiceNow to provide a consistent overview of applications and tools. Tested monitoring tools for the new GDW.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row multi-columns-row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="features-item">
+                                <div class="features-icon"><span class="icon-gears"></span></div>
+                                <h3 class="features-title font-alt">4. Data Insights - Mike Renwick</h3>
+                                <h4 class="post-meta">December - February 2017</h4>
+                                <p>Integrated Jupyter Notebooks into the organization. Refined the coding assignment used to hire 2 developers. Worked with Jeremy Hunt to identify data discrepancies and to pipe the right data for Distribution Management Information Dashboards.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="features-item">
+                                <div class="features-icon"><span class="icon-lightbulb"></span></div>
+                                <h3 class="features-title font-alt">5. Distribution - Sudhir Khanna</h3>
+                                <h4 class="post-meta">March - July 2017</h4>
+                                <p>Worked on onboarding APAC Quarterly Investment Reports into the current VRS Solution used by the London Client Servicing team. Worked as a Business Analyst to identify data requirements in order to automate the report generation.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="features-item">
+                                <div class="features-icon"><span class="icon-bike"></span></div>
+                                <h3 class="features-title font-alt">6. Digital - Aman Narain</h3>
+                                <h4 class="post-meta">July - October 2017</h4>
+                                <p>Main driver for Schroders GO - a chat bot to be implemented in Singapore,used to serve information that is publicly available on the website. This role required business analysis as well the conventional project management abilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <h2 class="module-title font-alt" style ="padding-top:35px;">Rest of the grad program</h2>
+                            <div class="module-subtitle font-serif">A high level view on upcoming rotations and projects</div>
+                        </div>
+                    </div>
+                    <div class="row multi-columns-row post-columns">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="post mb-20">
+                                <div class="post-thumbnail"><img src="images/post-1.jpg" alt="Blog-post Thumbnail"/></div>
+                                <div class="post-header font-alt">
+                                    <h2 class="post-title">Investment Technology</h2>
+                                    <div class="post-meta">Under&nbsp;Peter Ton That&nbsp;| November 2017
+                                    </div>
+                                </div>
+                                <div class="post-entry">
+                                    <p>Working with the new Sparks database implementation which would involve business analysis work as well as development in C# or .NET. I would also like to use this opportunity to learn more about the Aladdin platform - changing a trading platform does not happen regularly and this is a good opportunity to get exposure to the process and the new platform.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="post mb-20">
+                                <div class="post-thumbnail"><img src="images/post-3.jpg" alt="Blog-post Thumbnail"/></div>
+                                <div class="post-header font-alt">
+                                    <h2 class="post-title">Hackathon 2017</h2>
+                                    <div class="post-meta">Under&nbsp;King Yo&nbsp;| December 2017
+                                    </div>
+                                </div>
+                                <div class="post-entry">
+                                    <p>I plan to join the Hackathon for 2017 and hope to do one better than 2016. I will probably try to work cross region with the London grads - and perhaps lead the 2017 Singapore grads who are in London if they are not able to find a team. There are several ideas I have that will be disclosed and fine tuned closer to the date.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4">
+                            <div class="post mb-20">
+                                <div class="post-thumbnail"><img src="images/post-2.jpg" alt="Blog-post Thumbnail"/></div>
+                                <div class="post-header font-alt">
+                                    <h2 class="post-title">Cognitive Science Automation</h2>
+                                    <div class="post-meta">Under&nbsp;Vasudevan Vasu&nbsp;| February 2018
+                                    </div>
+                                </div>
+                                <div class="post-entry">
+                                    <p>Opportunity to learn more about Schroders's new innovative push - and to gain experience in Blue Prism as a configuration engineer/analyst. Ideally an opportunity as well to contribute as the program is still not fully concrete and more open to changes and innovative solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="module" id="Deliveries" style="padding-top:60px;background-color:rgba(88, 88, 88, 0.18)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <h2 class="module-title font-alt">Self-initiated deliveries </h2>
+                            <div class="module-subtitle font-serif">Here are some ideas that were self-driven and delivered using spare times during after office hours or weekends. More details here.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="alt-features-item">
+                                <div class="alt-features-icon"><span class="icon-chat"></span></div>
+                                <h3 class="alt-features-title font-alt">Coffee Connections</h3>Full stack development on Coffee Connections which is slated to go Live in December 2017
+                            </div>
+                            <div class="alt-features-item">
+                                <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
+                                <h3 class="alt-features-title font-alt">Digital Dependency Board</h3>Born our of Hackathon 2016, meant to replace/supplement the logistical nightmare that is PI Planning Dependency Board
+                            </div>
+                            <div class="alt-features-item">
+                                <div class="alt-features-icon"><span class="icon-target"></span></div>
+                                <h3 class="alt-features-title font-alt">Graduate Evening 2017</h3>Organized, planned and executed an evening speaking to future graduates about working at Schroders
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+                            <div class="alt-services-image align-center"><img src="images/promo.png" alt="Feature Image" style="margin-top:50px;"></div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3">
+                            <div class="alt-features-item">
+                                <div class="alt-features-icon"><span class="icon-search"></span></div>
+                                <h3 class="alt-features-title font-alt">Tableau Admin Dashboard</h3>Central dashboard to simplify the process of searching and identifying dashboard and data source owners
+                            </div>
+                            <div class="alt-features-item">
+                                <div class="alt-features-icon"><span class="icon-strategy"></span></div>
+                                <h3 class="alt-features-title font-alt">Business Consultancy Assignment</h3>Business Consultancy work for the Singapore office. More details to follow once more confirmation has been received
+                            </div>
+                            <div class="alt-features-item">
+                                <div class="alt-features-icon"><span class="icon-layers"></span></div>
+                                <h3 class="alt-features-title font-alt">Competitor Analysis Tool</h3>A PoC for a tool to help track and consolidate technical tools used by our competitors.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="images/testimonial_bg.jpg" id="Testimonials">
+                <div class="testimonials-slider pt-140 pb-140">
+                    <ul class="slides">
+                        <li>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="module-icon"><span class="icon-quote"></span></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <blockquote class="testimonial-text font-alt">It is a shame that you had to go back, but you go having built up a great reputation for yourself both across Technology and Distribution but also on the social side of things. Take what you have enjoyed here and roll it out in Singapore, you could be a trendsetter!</blockquote>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 col-sm-offset-4">
+                                        <div class="testimonial-author">
+                                            <div class="testimonial-caption font-alt">
+                                                <div class="testimonial-title">Name Withheld</div>
+                                                <div class="testimonial-descr">Distribution</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="module-icon"><span class="icon-quote"></span></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <blockquote class="testimonial-text font-alt">Until we meet again, take care and keep doing what you do. It will get you far.</blockquote>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 col-sm-offset-4">
+                                        <div class="testimonial-author">
+                                            <div class="testimonial-caption font-alt">
+                                                <div class="testimonial-title">Name Withheld</div>
+                                                <div class="testimonial-descr">Investment Platform</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="module-icon"><span class="icon-quote"></span></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <blockquote class="testimonial-text font-alt">A team player, collaborative, keen to be involved, passionate, hard worker. All good signs really.</blockquote>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 col-sm-offset-4">
+                                        <div class="testimonial-author">
+                                            <div class="testimonial-caption font-alt">
+                                                <div class="testimonial-title">Name Withheld</div>
+                                                <div class="testimonial-descr">Data Science and Advanced Analytics</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="module" id="Assessment" style="height:860px;">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="module-title font-alt">Assessment</h2>
+                    <hr class="divider-w mt-10 mb-20">
+                    <div role="tabpanel">
+                        <ul class="nav nav-tabs font-alt" role="tablist">
+                            <li class="active"><a href="#Strengths" data-toggle="tab"><span class="icon-trophy"></span>Strengths</a></li>
+                            <li><a href="#Weaknesses" data-toggle="tab"><span class="icon-caution"></span>Weaknesses</a></li>
+                            <li><a href="#donewell" data-toggle="tab"><span class="icon-speedometer"></span>Done Well</a></li>
+                            <li><a href="#dobetter" data-toggle="tab"><span class="icon-lifesaver"></span>Could do better</a></li>
+                            <li><a href="#improved" data-toggle="tab"><span class="icon-linegraph"></span>Improved</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Strengths">
+                                <div class="panel-group" id="accordion2">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#development">Development skills</a></h4>
+                                        </div>
+                                        <div class="panel-collapse collapse in" id="development">
+                                            <div class="panel-body">I feel that I am fortunate to be have an analytical mind to tackle complex problems that commonly arise during development. Paired with my strong foundation in multiple languages allows me to pick up new languages with less friction if required and to complete development projects quickly
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#wrkTeams">Working in teams</a></h4>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="wrkTeams">
+                                            <div class="panel-body">As a naturally easy to get along individual I feel I often times raise the morale and collaborative spirit within a team or department. This helps to foster innovation as well as desire to complete deliverables punctually
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#creative">Innovation</a></h4>
+                                        </div>
+                                        <div class="panel-collapse collapse" id="creative">
+                                            <div class="panel-body"> I appreciate the value of thinking outside the box when coming up with solutions to problems. I like to find the most efficient way to relieve a pain point or to solve a problem and I think usually can offer a fresh and different persepective to processes and problems
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#notafraid">Tactful communication</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="notafraid">
+                                        <div class="panel-body">I strive to understand how to give constructive criticism, especially to more senior colleagues, which leads to more effective teams with high morale. This requires a high level of empathy that I understand requires daily effort to improve on
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="Weaknesses">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion2" href="#Afraid">Confrontation avoidance</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="Afraid">
+                                        <div class="panel-body">The flip side of trying to empathize with everyone is that at times I get worried about offending or upsetting people when there is negative news to deliver. Sometimes I overthink things and start getting anxious about commucating the news to that person
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#focus">Prioritizing routine work</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="focus">
+                                        <div class="panel-body">There are many tasks that are routine and repititve but still very important to delivering value. I sometime tend to drift toward more exciting things during the undertaking of these tasks
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="donewell">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion3" href="#innovation">Innovation</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="innovation">
+                                        <div class="panel-body">Taking part and coming in 2nd in the Hackathon 2016 as well as delivering Coffee connections are achievements I think I have done well in. I feel like this highlights my innovative spirit and I look to continue to build on my strong start
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#improvecomms">Efficient Solutionising</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="improvecomms">
+                                        <div class="panel-body">Creating tools like the Sankey Diagram for the Client Reporting team under Sudhir highlights my ability to think outside the box to create a much more streamlined solution. We used the diagram to identify the flow of data sources to sections of a Quarterly Investment Report.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion3" href="#eq">Emotional Growth</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="eq">
+                                        <div class="panel-body">Improving my people interactions skills over the past year has allowed me to build deeper connections and larger networks throughout the organisation. This helps me to achieve much more much quicker due to the different resources I can tap into during any difficulty. Not only does it benefit my professional life, it also has tangible benefits to my private life.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="dobetter">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a data-parent="#accordion4" href="#enterprise">Enterprise stack</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="enterprise">
+                                        <div class="panel-body">During development work for Coffee connections and Digital Dependency Board I realize there was a lot about the enterprise stack I was not aware of. I let issues like Infrastructure and Information Security requirements blindside me and it almost delayed the delivery of the application. Since then I have been working to understand the different enterprise requirements involved an delivery an appplication
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion4" href="#improvecomms2">Improve in communication</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="improvecomms2">
+                                        <div class="panel-body">Although there has been noticeable improvement in my ability to communicate effectively I feel like over the last 12 months there has still been opportunities which I could have contributed positively however I was anxious that I mind offend the parties involved. I should have taken those opportunities and will work on not missing such opportunities in the future
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="improved">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion5" href="#enterprise2">Enterprise stack</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="enterprise2">
+                                        <div class="panel-body">My understanding of Schroders's Enterprise stack for application delivery has definitely improved by magnitudes. I now have a much better - but not yet perfect - understanding on aspects of productionizing like clearances required before any application can go live
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion5" href="#improvecomms3">Communication</a></h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="improvecomms3">
+                                        <div class="panel-body">Although there has been noticeable improvement in my ability to communicate effectively I feel like over the last 12 months there has still been opportunities which I could have contributed positively however I was anxious that I mind offend the parties involved. I should have taken those opportunities and will work on not missing such opportunities in the future
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <section class="module" id="Future" >
+          <div class="row position-relative m-0">
+            <div class="col-xs-12 col-md-6 side-image" data-background="images/section-14.jpg"></div>
+            <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text" style="background-color:rgb(225, 225, 225)">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="module-title font-alt align-left">The Future</h2>
+                  <div class="module-subtitle font-serif align-left">I have interest in more innovative aspects of Global Technology.</div>
+                  <p>I truly feel that functions and teams that have a high amount of responsibility, autonomy and trust is where I can excel. This along with my passion in innovative technologies will be the channel which I can provide maximum value</p>
+                  <p>This includes Mike Renwick’s Data Insights function or Paul Came’s AI/Machine learning function, where through rotations or catch ups with them have shown that there is trust in my ability to deliver value as well as an aspect of working with innovative technologies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="module-small bg-dark" style="padding-top:30px;padding-bottom:10px;">
+            <div class="container">
+                <div class="row">
+                    <div class="widget">
+                        <h5 class="widget-title font-alt" style="margin:0 auto;">Schroders Graduate Review 2017</h5>
+                        <p>Created for the sole purpose of Schroders Graduate Review. Do not reproduce or disseminate without permission.
+                        </p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+        </div>
+        <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+</body>
+
+</html>
