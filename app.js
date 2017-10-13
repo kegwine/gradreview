@@ -3,7 +3,7 @@ var http = require('http');
 
 var app = express();
 
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 8080;
 var host = process.env.HOST || 'localhost';
 
 app.use(express.static('public'));
