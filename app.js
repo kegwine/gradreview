@@ -1,4 +1,5 @@
 var express = require('express');
+var http = require('http');
 
 var app = express();
 
@@ -13,6 +14,12 @@ app.get('/', function(req, res){
 	res.render('index', {list:['Home','About','Rotations','Deliveries', 'Testimonials','Assessment','Future']});
 })
 
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(8080, 'localhost');
+console.log('Server running at http://localhost:8080/');
+	    
 app.listen(port, host);
 
 console.log('running server on port: ' + port);
